@@ -2,4 +2,4 @@
 echo "Enter port number:"
 read pnumber
 
-ssh -R mammy:pnumber:localhost:8080 serveo.net &
+ssh -R mammy:$pnumber:localhost:8080 serveo.net &

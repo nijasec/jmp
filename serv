@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+pkill "^ssh$"
 echo "Enter port number:"
 read pnumber
 

@@ -3,4 +3,4 @@ pkill "^ssh$"
 echo "Enter port number:"
 read pnumber
 
-ssh -R mammy:$pnumber:localhost:$pnumber serveo.net &
+ssh -o "stricthostkeychecking=no" -R mammy:$pnumber:localhost:$pnumber serveo.net &

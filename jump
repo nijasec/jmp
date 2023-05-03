@@ -5,4 +5,4 @@ echo "usrname:"
 read usrname
 echo "device name:"
 read devname
-ssh -J $pcname@ssh-j.com usrname@devname -L localhoast:8080:localhost:8080 
+ssh -J $pcname@ssh-j.com $usrname@$devname -L localhoast:8080:localhost:8080 
